@@ -1,179 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ca">
 <head>
-	<meta charset="utf-8" />
 	<title>Michael Fagan</title>
-	<meta name="description" content="Michael Fagan's personal home page." />
-	<meta name="keywords" content="Michael Fagan, mfagan, faganm, michaelfagan, faganmichael" />
-	<meta name="viewport" content="width=device-width" />
-	<link rel="shortcut icon" href="http://faganm.com/favicon.ico" />
-	<link rel="profile" href="http://microformats.org/profile/hcard" />
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="alternate" type="application/rss+xml" title="Michael Fagan's blog" href="http://faganm.com/blog/feed/" />
-	<style type="text/css">
+	<meta name="description" content="Michael Fagan’s personal home page.">
+	<meta name="viewport" content="width=device-width">
+	<link rel="alternate" type="application/rss+xml" title="Michael Fagan’s blog" href="http://faganm.com/blog/feed/">
+	<link rel="shortcut icon" href="http://faganm.com/favicon.ico">
+	<style>
 		body {
-			font-family: Georgia, "Times New Roman", Serif;
+			font-family: "Atkinson Hyperlegible Next", Helvetica, Arial, sans-serif;
 			font-size: 1.2em;
-			margin: 0;
-			text-align: center;
+			margin: 1.5em;
 		}
-		h1, dt, header ul {
-			font-family: "Lucida Sans", Arial, Helvetica, Sans-serif;
+		a {
+			text-underline-offset: 0.2em;
 		}
-		header {
-			background-color: #111;
-			color: white;
-			padding: 1em 0;
-			margin-bottom: 2.5em;
+		a:hover {
+			text-decoration-thickness: 0.2em;
 		}
-		header .inner {
-			background-color: #111; /* for some older browsers */
+		h2 {
+			font-size: 1.2em;
+			color: #402409;
 		}
-		header a {
-			color: white;
+		h1, section {
+			padding-bottom: 1rem;
+			border-bottom: 1rem solid #184018;
 		}
-		.inner {
-			text-align: left;
-			max-width: 54em;
-			margin: 0 auto;
-			_width: 54em;
-			padding-right: 1em;
-			padding-left: 1em;
-		}
-		header h1 {
-			margin: 0;
-			font-size: 2.2em;
-		}
-		@media screen and (max-width: 350px) {
-			header h1 {
-				font-size: 2em;
+		@media (prefers-color-scheme: dark) {
+			body {
+				background-color: black;
+			}
+			body, h2 {
+				color: #FAFAFA;
+			}
+			a {
+				color: #4DA6FF;
+			}
+			a:visited {
+				color: #8f6bc9;
 			}
 		}
-		header ul {
-			list-style-type: none;
-			padding-left: 0;
+		ul {
+			padding-left: 1.2em;
 		}
-		header li {
-			float: left;
-			margin-right: 0.8em;
+		p:has(+ ul) {
+			margin-bottom: 0.5em;
 		}
-		dd {
-			margin-left: 0;
-			margin-bottom: 0.8em;
+		p + ul {
+			margin-top: 0;
 		}
-		footer {
-			border-bottom: 2em solid #111;
+		li + li {
+			margin-top: 0.5em;
 		}
-		footer .inner {
-			text-align: right;
-		}
-		footer img {
-			vertical-align: bottom;
-		}
-		.hidden {
-			display: none;
+		section + section {
+			margin-top: 2em;
 		}
 	</style>
-	<!--[if lt IE 9]>
-		<script type="text/javascript">
-			document.createElement('header');
-			document.createElement('footer');
-			document.createElement('section');
-		</script>
-	<![endif]-->
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-13006445-3']);
-		_gaq.push(['_trackPageview']);
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400..700&display=swap" rel="stylesheet">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4NY9E4BWMR"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-4NY9E4BWMR');
 	</script>
+
 </head>
-<body class="vcard">
+	<body>
+		<h1>Michael Fagan</h1>
 
-	<header>
-		<div class="inner">
-			<h1 class="fn">Michael Fagan</h1>
-			<a style="display:none" class="url" href="http://faganm.com/">http://faganm.com/</a>
+		<section>
+			<h2>Overview</h2>
+			<p>I am:</p>
 			<ul>
-				<li><a rel="me" class="email" href="mailto:mfagan@gmail.com">mfagan@gmail.com</a></li>
-				<li><a rel="me" href="http://faganm.com/blog/">Blog</a></li>
-				<li><a rel="me" href="http://www.linkedin.com/in/mfagan">LinkedIn</a></li>
-				<li><a rel="me" href="http://www.facebook.com/michaelfagan">Facebook</a></li>
-				<li><a rel="me" href="http://www.librarything.com/profile/mfagan" title="books I have read, from about 2008 onward">LibraryThing</a></li>
-				<li><a rel="me" href="https://github.com/michaelfagan">GitHub</a></li>
+				<li>a parent</li>
+				<li>a web-related multidisciplinarian</li>
+				<li>a resident of Toronto, Canada</li>
+				<li>an employee of the <a href="https://www.ontario.ca/page/about-ontario-public-service">Ontario Public Service</a></li>
 			</ul>
-			<div style="clear:both"></div>
-		</div>
-	</header>
+			<p>Read or subscribe to <a href="http://faganm.com/blog/">my blog</a>.</p>
+		</section>
 
-	<section id="projects" class="inner">
+		<section>
+			<h2>Contact</h2>
+			<p>Email is best: <a href="mailto:mfagan@gmail.com">mfagan@gmail.com</a></p>
+			<p>If we have communicated, you can add me on <a href="http://www.linkedin.com/in/mfagan">LinkedIn</a>.</p>
+		</section>
 
-		<div>
+		<section>
 			<h2>Projects</h2>
-			<dl>
-				<!--
-				<dt><a href="https://www.ontario.ca/page/digital-government">Ontario Digital Service</a></dt>
-				<dd>
-					Not a project per-se, as it’s my job. You can sometimes spot me on <a href="https://medium.com/ontariodigital">our blog</a>.
-				</dd>
-				-->
-				<dt><a href="https://faganm.com/diagram/">Family Circles Diagram</a></dt>
-				<dd>
-					My first big project emerging from my genealogy hobby.
-				</dd>
-				<dt><a href="http://www.faganfinder.com/">Fagan Finder</a></dt>
-				<dd>
-					Search and other web tools and information about web searching.
-					Began in 2000 as my personal home page, open to the public in 2001, and very active until 2003.
-					I made some updates in 2010, 2017, 2019, and 2020.
-				</dd>
-			</dl>
-		</div>
+			<ul>
+				<li><a href="https://faganm.com/diagram/">Family Circles Diagram</a>: create a beautiful poster of your whole family</li>
+				<li><a href="https://faganm.com/langmath/">Langmath</a>: a casual game</li>
+				<li>
+					<a href="http://www.faganfinder.com/">Fagan Finder</a>:
+					find anything, using a wide range of search engines and databases
+					<ul>
+						<li style="margin-top:0.3em">from 2001-2003 this included a lot more</li>
+					</ul>
+				</li>
 
-		<div>
+			</ul>
+		</section>
+
+		<section>
 			<h2>Past projects</h2>
-			<dl>
-				<dt><a href="http://repairathon.com/">Repairathon</a></dt>
-				<dd>An organization I started that runs free public events in Toronto, where anyone can bring clothing to be repaired by volunteers. It’s still running, but I am no longer very involved.</dd>
-				<dt><a href="https://web.archive.org/web/20190505153123/http://wastenothing.ca/">Waste Nothing</a></dt>
-				<dd>
-					Waste Nothing makes it easy to find out how best to use and dispose of unwanted items,
-					by combining information from municipalities, non-profits, residents, etc.
-				</dd>
-				<dt><a href="https://github.com/michaelfagan/epm">Event-Participant Manager</a></dt>
-				<dd>Web-based open source application for coordinating events, built initially for <a href="http://notfarfromthetree.org/">Not Far From The Tree</a>.</dd>
-				<dt><a href="https://web.archive.org/web/20130205122134/http://quizify.com:80/">Quizify</a></dt>
-				<dd>
-					Flashcard-like study tools, based on one I built to help myself with a university course.
-					I went through several prototypes but ultimately closed the project.
-				</dd>
-				<dt><a href="http://www.opensearch.org/">OpenSearch</a></dt>
-				<dd>
-					I worked on this as part of a winter 2005 internship with <a href="https://a9.com/">A9</a>.
-					OpenSearch is a specification for machine-readable search information, now widely used.
-				</dd>
-				<dt><a href="https://web.archive.org/web/20060809162931/http://uwhub.ca:80/">UWhub</a></dt>
-				<dd>
-					Both a search engine for the <a href="https://uwaterloo.ca/">University of Waterloo</a>, and an attempt to make a general search application that could be tailored to other uses.
-					Developed mostly from May 2005 to April 2006.
-				</dd>
-				<dt><a href="http://web.archive.org/web/*/http://geocities.com/TelevisionCity/Network/8310/futurama.htm">The Futurama Icon Page</a></dt>
-				<dd>
-					My first substantial website, 1998 to 1999.
-				</dd>
-			</dl>
-		</div>
-	</section>
+			<ul>
+				<li>
+					<a href="https://faganm.com/blog/2026/10/14/1210/">Repairathon</a>:
+					a community group to repair clothes for free (2013-2020)
+				</li>
+				<li>
+					<a href="https://web.archive.org/web/20190505153123/http://wastenothing.ca/">Waste Nothing</a>:
+					a white-label <abbr title="software as a service">SaaS</abbr> tool for governments to share waste information (2012-2014)
+				</li>
+				<li>
+					<a href="https://github.com/michaelfagan/epm">Event-Participant Manager</a>:
+					open-source tool for organizations (2014/15)
+				</li>
+				<li>
+					<a href="https://web.archive.org/web/20130205122134/http://quizify.com:80/">Quizify</a>:
+					web-powered flashcards (2005-2007, 2010)
+				</li>
+				<li>
+					<a href="https://web.archive.org/web/20060809162931/http://uwhub.ca:80/">UWhub</a>:
+					a white-label search engine and search engine for my university (2005/6)
+				</li>
+				<li>
+					<a href="http://web.archive.org/web/*/http://geocities.com/TelevisionCity/Network/8310/futurama.htm">The Futurama Icon Page</a>:
+					fan website (1998/9)
+				</li>
+			</ul>
+		</section>
 
-	<footer>
-		<div class="inner">
-			<img class="photo" src="http://faganm.com/me_top.jpg" alt="photograph of Michael Fagan" width="191" height="139" title="this photo was barely photoshopped at all" />
-		</div>
-	</footer>
+		<section>
+			<h2>More</h2>
+			<ul>
+				<li><a href="http://www.librarything.com/profile/mfagan">Books I have read</a></li>
+				<li><a href="https://github.com/michaelfagan">GitHub</a></li>
+			</ul>
+		</section>
 
-</body>
-</html>
+	</body>
+<html>
